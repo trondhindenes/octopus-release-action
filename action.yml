@@ -12,8 +12,8 @@ inputs:
     description: 'OctopusDeploy project to create the release for'
     required: true
   release_version:
-    description: 'The version to create the release for'
-    required: true
+    description: 'The version to create the release for. You can also provide this with the env var INPUT_RELEASE_VERSION'
+    required: false
   space_name:
     description: 'The OctopusDeploy space that the project is in'
     required: false
